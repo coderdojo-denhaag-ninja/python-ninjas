@@ -1,0 +1,1 @@
+mkdir /home/pi/CoderDojo/python/$(date +"%d-%m-%Y")

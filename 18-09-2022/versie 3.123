@@ -1,0 +1,45 @@
+from turtle import *
+from random import randint
+speed(0)
+penup()
+goto(-140, 120)
+for stap in range(15):
+    write(stap, align='center')
+    right(90)
+    forward(10)
+    pendown()
+    forward(150)
+    penup()
+    backward(160)
+    left(90)
+    forward(20)
+
+
+bob = turtle()
+bob.color('blue')
+bob.shape('turtle')
+
+bob.penup()
+bob.goto(-160,70)
+bob.pendown()
+
+henk = turtle
+henk.color('yellow')
+henk.shape('turtle')
+
+henk.penup()
+henk.goto(-160,40)
+henk.pendown()
+
+jaap = turtle
+jaap.color('green')
+jaap.shape('turtle')
+
+jaap.penup()
+jaap.goto(-160,10)
+jaap.pendown()
+
+for draai in range(100):
+    bob.forward(randint(1,5))
+    henk.forward(randint(1,5))
+    jaap.forward(randint(1,5))
